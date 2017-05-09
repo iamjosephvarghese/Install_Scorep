@@ -74,7 +74,8 @@ export PATH=$PATH:/opt/scorep/bin
 For more information about working and installation check the [script](install_scorep.sh).  
 
 ## Acknowledgments
-[VI-HPS](http://www.vi-hps.org) 
+
+[VI-HPS](http://www.vi-hps.org)  
 [Neurobin Shell Script Compiler](https://github.com/neurobin/shc) for compiling the script file
 
 ## License
