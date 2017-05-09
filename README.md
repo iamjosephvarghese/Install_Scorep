@@ -8,7 +8,7 @@ The Score-P measurement infrastructure is a highly scalable and easy-to-use tool
 
 Open the terminal and run the following git command:  
 ```
-git clone sdsdsdsdad
+git clone https://github.com/iamjosephvarghese/Install_Scorep.git
 ```
 
 ### Running the script
