@@ -79,12 +79,12 @@ export PATH=$PATH:/opt/scorep/bin
 ```
 For more information about working and installation check the [script](install_scorep.sh).  
 
-## Acknowledgments
+### Acknowledgments
 
 [VI-HPS](http://www.vi-hps.org)  
 [Neurobin Shell Script Compiler](https://github.com/neurobin/shc) for compiling the script file
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
