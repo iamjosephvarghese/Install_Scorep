@@ -40,6 +40,7 @@ scorep --version
 ```
 
 ### Packages installed by the script
+```
 gcc  
 g++  
 gfortran  
@@ -59,6 +60,7 @@ openmpi-dev
 openmpi-doc   
 zlib1g-dev  
 libpng-dev  
+```
 
 ### Working  
 The script will download the necessary files from [here](http://www.vi-hps.org/upload/packages/scorep/scorep-3.0.tar.gz).The files are extracted to a folder named scorep-3.0 . The folder scorep-3.0 is then moved to the home directory. The necessary packages are then installed using 
