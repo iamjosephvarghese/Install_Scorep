@@ -1,3 +1,5 @@
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
 # Install Score-P 3.0 using bash script
 This repository contain bash script necessary to install [Score-P 3.0](http://www.vi-hps.org/projects/score-p/) in your Linux based system.  
 
@@ -78,6 +80,26 @@ The PATH variable is then updated by appending the following line to the end of 
 export PATH=$PATH:/opt/scorep/bin
 ```
 For more information about working and installation check the [script](install_scorep.sh).  
+
+### Compiling the script  
+The script is compiled using [Shell Script Compiler](https://github.com/neurobin/shc).Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable.
+
+##### Steps to Install shc on Ubuntu  
+Run the following commands in the terminal:  
+```
+sudo add-apt-repository ppa:neurobin/ppa
+sudo apt-get update
+sudo apt-get install shc
+```
+##### Usage
+```
+shc -f <script_file_with_extension> -o <name_of_executable_output_file>
+```
+If no output file is specified by the -o option, then it will create an executable with .x extension by default.
+```
+shc -f <script_file_with_extension> 
+```
+For more information check [Neurobin Shell Script Compiler](https://github.com/neurobin/shc)  
 
 ### Acknowledgments
 
