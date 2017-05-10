@@ -1,5 +1,6 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
+[![Bash Love](https://github.com/ellerbrock/open-source-badges/blob/master/badges/bash-v1/bash-150x25.png)]
 # Install Score-P 3.0 using bash script
 This repository contain bash script necessary to install [Score-P 3.0](http://www.vi-hps.org/projects/score-p/) in your Linux based system.  
 
