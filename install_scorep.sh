@@ -1,6 +1,11 @@
 #!/bin/bash
 #Bash script to install scorep on linux system
 #Developed by : Joseph Varghese
+#For any support contact josephvarghese.rms@gmail.com
+#Find me on Github : iamjosephvarghese
+#Twitter : @jovarg7
+#License : MIT License
+#Next Update : Removing unwanted packages
 
 clear
 echo "************************************* SCOREP 3.0 ************************************"
@@ -19,6 +24,9 @@ wget http://www.vi-hps.org/upload/packages/scorep/scorep-3.0.tar.gz
 echo "#Download Completed"
 tar -xvf ~/Downloads/scorep-3.0.tar.gz
 mv ~/Downloads/scorep-3.0 ~/
+
+#Next Update: Where to move the folder in the above step
+
 
 echo "#Installing required packages"
 
@@ -60,7 +68,7 @@ echo $password | sudo -S apt-get install zlib1g-dev
 clear
 echo $password | sudo -S apt-get install libpng-dev
 clear
-cd 
+cd
 cd scorep-3.0
 cd vendor
 cd otf2
@@ -106,5 +114,5 @@ echo "export PATH=$PATH:/opt/scorep/bin" >> ~/.bashrc
 source ~/.bashrc
 
 clear
-cd 
+cd
 scorep
