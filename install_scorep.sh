@@ -7,6 +7,8 @@
 #License : MIT License
 #Next Update : Removing unwanted packages
 
+#Version : v1.0
+
 clear
 echo "************************************* SCOREP 3.0 ************************************"
 echo "#This script will install all necessary dependencies required for scorep"
@@ -116,3 +118,5 @@ source ~/.bashrc
 clear
 cd
 scorep
+
+#Version : v1.0
